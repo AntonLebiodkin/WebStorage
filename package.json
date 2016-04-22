@@ -1,0 +1,23 @@
+{
+  "name": "storage",
+  "version": "1.0.0",
+  "description": "coursework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonLebiodkin/WebStorage.git"
+  },
+  "author": "AntonLebiodkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonLebiodkin/WebStorage/issues"
+  },
+  "homepage": "https://github.com/AntonLebiodkin/WebStorage#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "jade": "^1.11.0"
+  }
+}

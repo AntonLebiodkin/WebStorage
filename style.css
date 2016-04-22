@@ -1,0 +1,23 @@
+.jumbotron{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('src/img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.jumbotron .container h2{
+    color: #ffffff;
+}
+
+.form-group {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#addItem {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
