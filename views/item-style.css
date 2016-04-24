@@ -1,0 +1,22 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-content: space-around;
+    height: 150px;
+    width: 15%;
+    border: 3px solid black;
+    border-radius: 10%;
+}
+.item-edit {
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.item-delete {
+    position: relative;
+    left: 15px;
+    top: 5px;
+}

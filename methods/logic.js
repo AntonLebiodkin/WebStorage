@@ -3,11 +3,9 @@
  */
 function addItem(){
     var form = $('#add_form').serialize();
-    $.get('/add_item', function(data){
+    $.post('/add_item', form,  function(data){
         $('#storage').append(data);
     });
-    $('#addItem').submit();
-    $('#addItem').close();
 
 }
 
